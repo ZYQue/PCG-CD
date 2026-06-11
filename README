@@ -1,0 +1,10 @@
+This repository contains the official implementation of PCG-CD and the supplementary material for the paper
+
+"MDL Meets Latent Confounders: LNML-based Causal Discovery"
+
+accepted at ECML PKDD 2026.
+
+Contents:
+- Source code for experiments reported in the paper
+- Supplementary material containing additional proofs
+- Instructions for reproducing the experimental results

@@ -1,0 +1,5 @@
+2. cylinders:     multi-valued discrete
+3. displacement:  continuous
+4. horsepower:    continuous
+5. weight:        continuous
+6. acceleration:  continuous

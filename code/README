@@ -1,0 +1,43 @@
+This repository contains the implementation of **PCG-CD**, proposed in our ECML-PKDD submission:
+> MDL Meets Latent Confounders: LNML-based Causal Discovery
+
+The code supports multivariate causal graph discovery with latent confounders under nonlinear mechanisms using an LNML-based criterion.
+
+---
+
+## Requirements
+
+- Python >= 3.8
+- numpy
+- pandas
+- scipy
+- scikit-learn
+
+
+## File Structure
+.
+├── data/               # Datasets
+│   ├──real		# Real-world dataset
+│   ├──art		# Artificial datasets
+├── alg.py		# Script to run artificial datasets
+├── alg_real.py		# Script to run real-world dataset (Auto MPG)
+├── eval.py		# Performance metrics
+└── README.md
+
+
+## How to Run
+
+- Artificial Experiments
+
+    python3 alg.py
+    python3 eval.py
+
+- Real-world Experiments
+
+    python3 alg_real.py
+
+The scripts will output inferred causal graphs and corresponding $\Delta$ values (for real-world data only).
+Results will be written in the result/ directory in the corresponding data files after running the experiments.
+
+
+
